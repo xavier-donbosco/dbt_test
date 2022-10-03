@@ -4,7 +4,7 @@ my_dbt_demo:
       catalog: null
       host: adb-5093147456969496.16.azuredatabricks.net
       http_path: sql/protocolv1/o/5093147456969496/0707-124639-n9m1ucye
-      schema: dbt_test
+      schema: product_sales
       threads: 1
       token: dapi334d0537b33e5f84bac8b676d7607688-2
       type: databricks
