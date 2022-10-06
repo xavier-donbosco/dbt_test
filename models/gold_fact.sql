@@ -3,4 +3,4 @@
   file_format='delta'
 ) }}
 
-'{{var("operator")}}'
+select * from product_sales.fact_sales where date_of_entry = "'{{var("date")}}'"
