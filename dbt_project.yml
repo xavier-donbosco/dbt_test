@@ -6,6 +6,10 @@ name: 'my_dbt_demo'
 version: '1.0.0'
 config-version: 2
 
+vars:
+  # The `start_date` variable will be accessible in all resources
+  date: '2022-12-01'
+
 # This setting configures which "profile" dbt uses for this project.
 profile: 'my_dbt_demo'
 
